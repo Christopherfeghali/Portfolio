@@ -33,10 +33,22 @@ ul
 .dark
 {
 	padding: 15px;
-	background: #35424a;
+	background: #414347;
 	color: #ffffff;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	border-radius: 25px 25px 25px 25px;
+	border: 1px solid;
+  	padding: 10px;
+  	box-shadow: 5px 5px white;
+}
+
+.dark ul
+{
+	margin-left: 15px;
+}
+
+.dark h3
+{
+	margin-left: 10px;
 }
 
 /*Header*/
@@ -118,6 +130,7 @@ header a:hover
     -o-animation: fadein 2s; /* Opera */
 }
 
+
 #showcase p
 {
 	font-size: 20px;
@@ -187,6 +200,11 @@ header a:hover
 	padding: 4px;
 	height: 25px;
 	width: 250px;
+}
+
+#pdfreader 
+{
+	margin-left: 0px;
 }
 
 /*Services*/
@@ -324,9 +342,10 @@ header a:hover
 aside#sidebar
 {
 	float: right;
-	width: 30%;
+	width: 20%;
 	margin-top: 10px;
-	background: #414347;
+	margin-right: 100px;
+	/*background-color: #414347;*/
 }
 
 /*Main-col*/
@@ -334,8 +353,15 @@ aside#sidebar
 article#main-col
 {
 	float: left;
-	width: 65%;
+	width: 100%;
 }
+
+article#main-col p
+{
+	margin-left: 150px;
+	text-align: center;
+}
+
 
 footer
 {
