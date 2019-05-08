@@ -112,9 +112,13 @@ header a:hover
   	transition-duration: 2s;
   	transition-timing-function: ease;
 	min-height: 400px;
-	background:url('../img/background.jpg') 0% 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background:url('../img/background.jpg');
+	/*background-size: cover;
+	background-repeat: no-repeat;*/
+	background-attachment: fixed;
+  	background-position: bottom;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 	text-align: center;
 	color : #ffffff;
 }
@@ -225,10 +229,10 @@ header a:hover
 /*Boxes*/
 #boxes
 {
-	animation: fadein 5s;
-    -moz-animation: fadein 5s; /* Firefox */
-    -webkit-animation: fadein 5s; /* Safari and Chrome */
-    -o-animation: fadein 5s; /* Opera */
+	animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
 	margin-top: 20px;
 }
 
@@ -372,20 +376,30 @@ footer
 	text-align: center;
 	border-top: #414347 3px solid;
 	border-bottom: #414347 3px solid;
+	position:relative;
+ 	bottom:0;
+ 	width:100%;
+   	height:35px;
 }
 
 footer a
 {
 	padding: 5px;
-	margin-top: 10px;
+	margin-top: 5px;
 	color: #ffffff;
 }
 
 footer li
 {
+	margin-top: -2px;
 	float: right;
 	display: inline;
 	padding: 10px 10px 10px 10px;
+}
+
+footer p
+{
+	margin-top: 7px;
 }
 
 
