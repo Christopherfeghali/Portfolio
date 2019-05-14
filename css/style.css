@@ -232,6 +232,7 @@ header a:hover
 	box-shadow: 0 0 20px #000000b3;
 }
 
+
 #Services h3
 {
 	animation: none;
@@ -318,7 +319,7 @@ header a:hover
 {
 	margin-left: 7%;
 	margin-right: 5%;
-	background-image: url(../img/showcase.jpg);
+	background-image: url(../img/project_website.jpg);
 	background-size: 500px;
 	background-repeat: no-repeat;
 }
@@ -327,7 +328,7 @@ header a:hover
 {
 	margin-left: 1%;
 	margin-right: 5%;
-	background-image: url(../img/showcase.jpg);
+	background-image: url(../img/project_phone.jpg);
 	background-size: 500px;
 	background-repeat: no-repeat;
 
@@ -337,7 +338,7 @@ header a:hover
 {
 	margin-left: 1%;
 	margin-right: 5%;
-	background-image: url(../img/showcase.jpg);
+	background-image: url(../img/project_software.jpg);
 	background-size: 500px;
 	background-repeat: no-repeat;
 }
@@ -440,6 +441,46 @@ article#main-col p
   cursor: pointer;
   margin-top: 8px;
   width: 100%;
+}
+
+/*Portfolio*/
+#portfolio
+{
+    transition: transform .8s; /* Animation */
+	margin-top: 0px;
+	padding-bottom: 30px;
+	background-color: #dbdbdb;
+	box-shadow: 0 0 5px #000000b3;
+	height: 15%;
+	width: : 15%;
+}
+
+#portfolio h2
+{
+	margin-top: 8px; 
+	animation: none;
+	text-align: center;
+	position: relative;
+}
+
+
+#portfolio p
+{
+	text-align: left;
+	padding-top: 80px;
+}
+
+#portfolio img
+{
+	width: 300px;
+	float: left;
+}
+
+#portfolio:hover 
+{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
 }
 
 /*Footer*/
