@@ -37,7 +37,6 @@ ul
 	background: #414347;
 	color: #ffffff;
 	border-radius: 25px 25px 25px 25px;
-  	padding: 10px;
   	box-shadow: 0 0 20px #000000b3;
 }
 
@@ -114,7 +113,7 @@ header a:hover
   	transition-duration: 1s;
   	transition-timing-function: ease;
 	min-height: 400px;
-	background-image: url(../img/background.png);
+	background-image: url(img/background.png);
 	/*background-size: cover;
 	background-repeat: no-repeat;*/
 	background-attachment: fixed;
@@ -201,18 +200,6 @@ header a:hover
 	color: #414347;
 }
 
-#newsletter form
-{
-	float: right;
-	margin-top: 15px;
-}
-
-#newsletter input[type ="email"]
-{
-	padding: 4px;
-	height: 25px;
-	width: 250px;
-}
 
 #pdfreader 
 {
