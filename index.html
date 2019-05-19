@@ -11,6 +11,9 @@
 	<title>Home</title>
 
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+
 
 </head>
 
@@ -115,30 +118,38 @@
 </section>
 
 <!--Contact us-->	
-
 <div class="contact-form">
-    <h1>Contact Me</h1>
-    <div class="txtb">
-      <label>Full Name :</label>
-      <input type="text" name="" value="" placeholder="Enter Your Name">
-    </div>
+	<h2>CONTACT ME</h2>
+	<form method="POST" action="https://formspree.io/chris_a_jf@hotmail.com">
+			<div class="txtb">
+		      	<label>Full Name :</label>
+		      	<input type="text" class="fullname" name="Full name" placeholder="">
+	    	</div>
 
-    <div class="txtb">
-      <label>Email :</label>
-      <input type="email" name="" value="" placeholder="Enter Your Email">
-    </div>
+			<div class="txtb">
+				<label>Email :</label>
+	  			<input type="email" class="email" name="email" placeholder="">
+			</div>
 
-    <div class="txtb">
-      <label>Phone Number :</label>
-      <input type="text" name="" value="" placeholder="Enter Your Phone Number">
-    </div>
+			<div class="txtb">
+	      		<label>Message :</label>
+	  			<textarea name="message" class="message" placeholder=""></textarea>
+	  		</div>
 
-    <div class="txtb">
-      <label>Message :</label>
-      <textarea></textarea>
-    </div>
-    <a class="btn">Send</a>
-  </div>
+			<div class="status"></div>
+
+	  <button class=".btn" type="submit" style="
+	  display: inline-block;
+	  background: #121a26;
+	  border: none;
+	  padding: 14px 0;
+	  color: white;
+	  text-transform: uppercase;
+	  cursor: pointer;
+	  margin-top: 8px;
+	  width: 50%;">Send</button>
+	</form>
+</div>
 
 <!--Footer-->	
 <footer>
